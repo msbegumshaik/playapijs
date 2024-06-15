@@ -31,7 +31,8 @@
 
 #### Test Execution Steps
 ##### In Your Local => In Project root directory  example: C:\Users\username\AnyFolder\playapijs>
-1. execute tests using  >>> npx playwright test
+#### 1. execute tests using  => npx playwright test
+#### 2. execute tests using specific spec file npx playwright test tests/createUser.spec.js
 
 #### Test Report
 1. Verify HTML Test Execution Report using 
