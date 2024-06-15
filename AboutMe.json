@@ -1,0 +1,57 @@
+{
+    "name": "Muneera Shaik",
+    "role": "Senior QA Test Automation Engineer",
+    "experience": {
+      "years": "12 plus",
+      "key_skills": [
+        "Selenium",
+        "Cypress",
+        "Playwright"
+      ],
+      "languages": [
+        "Java",
+        "JavaScript & TypeScript",
+        "Python"
+      ],
+      "Frameworks":[
+        "BDD",
+        "TDD",
+        "Key Word Driven"
+      ]
+    },
+    "certifications": [
+      "ISTQB Certified Tester",
+      "Certified Less Practitioner",
+      "Certified BDD Tester"
+    ],
+    "education": {
+      "degree": "Bachelor of Technology in Computer Science",
+    },
+    "profile": [
+      {
+        "Linkedin": "http://linkedin.com/in/muneera-begum-shaik-0aaa1534",
+      }
+    ],
+    "professional_interests": [
+      "E2E Test Automation",
+      "CI/CD integration",
+      "AI in testing",
+      "Mobile test automation"
+    ],
+    "tech-hobbies": {
+     "Coding":{ 
+        "GitRepositories": [
+            "https://github.com/shaikmuneera14/Cucumber_SelJava_MS",
+            "https://github.com/muneerashaik14/cypresscucuts",
+            "https://github.com/muneerashaik14/PythonBehaveSel_Ms/tree/main"
+      ]},
+      "Blogging about tech":{
+        "Blogs": [
+            "https://medium.com/@shaikmuneera14/cypress-typescript-cucumber-with-docker-an-e2e-solution-with-allure-reporting-269c3b02ef86",
+            "https://medium.com/@shaikmuneera14/jmeter-docker-gitlab-integration-cf92f31d3edb"
+        ]
+      }
+
+    }
+ 
+  }
