@@ -44,3 +44,6 @@
 ##### For Every push to this Repository a pipeline is auto triggered and tests will be executed and report is saved as artifact
 #### CI/CD [GITHUB PIPELINE LINK](https://github.com/msbegumshaik/playapijs/actions/runs/9529825297). 
 ![GITHUB ACTIONS PIPELINE SUCCESS RESULT](./PipelineAutoTriggerUponPush.png)
+
+#### WORKING SNEAK PEAK OF TEST SETUP & TEST EXECUTION & TEST REPORT
+![Done](./SneakPeakSetupAndTestRunAndTestReport.png)
