@@ -47,3 +47,10 @@
 
 #### WORKING SNEAK PEAK OF TEST SETUP & TEST EXECUTION & TEST REPORT
 ![Done](./SneakPeakSetupAndTestRunAndTestReport.png)
+
+### Docker
+##### The Solution is containerized using dokcer and can be run simply using below Commands
+###### docker build -t playapijs:1.1 .
+![Docker Build Success](./dockerBuildSuccess.png)
+###### docker run -i -t playapijs:1.1
+![Docker Run Success](./dockerRunSuccess.png)
