@@ -1,15 +1,19 @@
-# CHIP API Automation Solution
+# PLAYAPIJS => API Automation Solution
 
-### This is a Sample Project to test APIs using JavaScript and Playwright. In this project you will find all the configurations & Test cases required to completely test the CREATE USER endpoint by Go Rest (https://gorest.co.in/)
+### This is a Sample Project to test APIs using JavaScript and Playwright. In this project you will find all the configurations & Test cases required to test the endpoints by Go Rest (https://gorest.co.in/)
+#### Why GO Rest???  Unlike the other API's mentioned GOREST provides below endpoints for free without need to signup or add card!!
+###### POST => /public/v2/users	=> Create a new user
+###### GET => /public/v2/users/6940081	=> Get user details By ID
+###### PUT|PATCH => /public/v2/users/6940081 => Update user details by ID
+###### DELETE => /public/v2/users/6940081	=> Delete user By ID
 
-#### Test Scenarios Covered
-
+#### Test Scenarios Covered => I Considered CREATE, GET and DELETE Endpoints for this Challenge
 ##### Happy Path cases:
 - To successfully test CREATE USER post API endpoint with valid inputs
-##### Non Happy / Negative cases:
+##### UnHappy / Negative cases:
 - To test CREATE USER post API endpoint with invalid inputs
 ##### Edge Cases:
-- To test for any other errors
+- To test for any other error cases
 
 #### PreRequisites
 1. nodejs
@@ -17,13 +21,16 @@
 
 #### Setup
 1. Clone Repository from github using command below
-    - git clone 
+    - HTTPS: git clone https://github.com/msbegumshaik/playapijs.git
+    - SSH : git clone git@github.com:msbegumshaik/playapijs.git
+    - OR simply download as zip, unzip and go ahead
 2. Open cloned Repository from vscode/Any IDE
 3. open Terminal
-4. In Project root directory  example: C:\Users\username\AnyFolder\chip>
+4. In Project root directory  example: C:\Users\username\AnyFolder\playapijs>
 5. Install All Dependencies using command >>> npm install >>> All dependencies must be installed here successfully
 
 #### Test Execution Steps
+##### In Your Local => In Project root directory  example: C:\Users\username\AnyFolder\playapijs>
 1. execute tests using  >>> npx playwright test
 
 #### Test Report
@@ -31,3 +38,9 @@
     ###### npx playwright show-report 
     OR
     ###### open index.html generated under ./playwright-report folder
+![SampleTestReport](./TestReport.png)
+
+### CI/CD Integration using GITHUB Actions
+##### For Every push to this Repository a pipeline is auto triggered and tests will be executed and report is saved as artifact
+#### CI/CD [GITHUB PIPELINE LINK](https://github.com/msbegumshaik/playapijs/actions/runs/9529825297). 
+![GITHUB ACTIONS PIPELINE SUCCESS RESULT](./PipelineAutoTriggerUponPush.png)
