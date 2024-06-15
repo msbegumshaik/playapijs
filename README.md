@@ -28,6 +28,6 @@
 
 #### Test Report
 1. Verify HTML Test Execution Report using 
-    >>> npx playwright show-report 
+    ###### npx playwright show-report 
     OR
-    >>> open index.html generated under ./playwright-report folder
+    ###### open index.html generated under ./playwright-report folder
